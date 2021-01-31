@@ -1,66 +1,39 @@
 # API-REST con nodejs y mongosee 
 
-_Practica donde aprendemos la base de una API-Rest con nodejs y mongosee.
+Practica donde aprendemos la base de una API-Rest con nodejs y mongosee.
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Deployment** para conocer como desplegar el proyecto.
-
-
-### Pre-requisitos 📋
-
-_Que cosas necesitas para instalar el software y como instalarlas_
+Clona el repositorio e inicia el proyecto , para eso usa:
 
 ```
-Da un ejemplo
+npm install
 ```
 
-### Instalación 🔧
-
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
+## Rutas
+Existen dos tipos de rutas
+1.-
 
 ```
-Da un ejemplo
+http://localhost:3000/usuarios
 ```
 
-_Y repite_
-
 ```
-hasta finalizar
+http://localhost:3000/login
 ```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+## Modo de uso
 
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
+Deberas hacer login con un usuario de la base de datos, y asi podras acceder a la API
+usuario:
 
 ```
-Da un ejemplo
+email:usuario@prueba3.com
+password: usuario
 ```
 
-### Y las pruebas de estilo de codificación ⌨️
 
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
-
-## Autore ✒️
+## Autor✒️
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
@@ -69,5 +42,4 @@ _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
+Este proyecto no tiene licencia 😥
